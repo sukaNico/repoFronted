@@ -1,7 +1,7 @@
 import { Seat } from "./seat.model";
 
 export class Theater {
-    id:number;
+    id?:number;
     location:string;
     capacity:number;
     seats?: Seat[];
